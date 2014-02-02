@@ -212,7 +212,7 @@
         setInterval(function() {
             
             $('.such.overlay').append(
-                '<span style="position: absolute; left: ' + Math.random()  *80 + '%;top: ' + Math.random()  *80 + '%;font-size: ' + Math.max(20, (Math.random() * 50 + 24)) + 'px; color:' + randomFrom(suchcolors) + ';">'
+                '<span style="position: absolute; left: ' + Math.random()  *80 + '%;top: ' + Math.random()  *80 + '%;font-size: ' + Math.max(20, (Math.random() * 30 + 24)) + 'px; color:' + randomFrom(suchcolors) + ';">'
                     + r(dogefix) +
                 '</span>');
                 var suchnumber = $("span").length;
