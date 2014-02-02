@@ -1,9 +1,9 @@
-weatherUrl = "http://dogeweather.comoj.com/weather.php"
+weatherUrl = "http://dogeweather.comoj.com/weather.php";
 
 $.getJSON(weatherUrl, function (data) {
 
     //$("#degreesCelsius").hide();
-//    console.log(data);
+    console.log(data);
 
     //set weather id & icon
     var id = data.weather[0].id;
