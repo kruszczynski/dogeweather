@@ -1,4 +1,4 @@
-	   $.getJSON('./weather.php', function(data){
+	   $.getJSON('http://dogeweather.com/weather.php', function(data){
 
 	   	//$("#degreesCelsius").hide();
 		console.log(data);
