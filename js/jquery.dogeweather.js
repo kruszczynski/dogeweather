@@ -156,32 +156,32 @@
             tings = $.extend(['chmura', 'kapuśniaczki', 'kropelki', 'mokro', 'noc', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="10d") {
-            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['krople deszczu', 'przemoczony', 'mokro', 'ślisko', 'deszczyk', 'tragicznie', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="10n") {
-            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'scary', 'dark cloud', 'night', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'scary', 'dark cloud', 'night', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'scary', 'dark cloud', 'night', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['krople deszczu', 'przemoczony', 'mokro', 'ślisko', 'deszczyk', 'tragicznie', 'strasznie', 'ciemna chmura', 'noc', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="11d") {
-            tings = $.extend(['thunder', 'loud', 'scare', 'bolt', 'lightning', 'terrible', 'hide', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['thunder', 'loud', 'scare', 'bolt', 'lightning', 'terrible', 'hide', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['thunder', 'loud', 'scare', 'bolt', 'lightning', 'terrible', 'hide', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['piorun', 'głośno', 'strach', 'błyskawica', 'grom', 'strasznie', 'schowany', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="11n") {
-            tings = $.extend(['scary night', 'thunder', 'loud', 'crash', 'bolt', 'lightning', 'terrible', 'hide', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['scary night', 'thunder', 'loud', 'crash', 'bolt', 'lightning', 'terrible', 'hide', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['scary night', 'thunder', 'loud', 'crash', 'bolt', 'lightning', 'terrible', 'hide', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['straszna noc', 'grom', 'głośno', 'huczno', 'piorun', 'błyskawica', 'dziadowstwo', 'schowany', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="13d") {
-            tings = $.extend(['snow', 'white', 'soft', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['snow', 'white', 'soft', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['snow', 'white', 'soft', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['śnieg', 'biao', 'miękko', 'lodowato', 'płatki śniegu', 'puszek', 'radość', 'świecąco', 'świątecznie', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="13n") {
-            tings = $.extend(['snow', 'white', 'night time', 'slippery', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['snow', 'white', 'night time', 'slippery', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['snow', 'white', 'night time', 'slippery', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['śnieżek', 'biao', 'nocka', 'ślsko', 'lód', 'płatki śniegu', 'puszek', 'radość', 'świecąco', 'świątecznie', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="50d" || suchicon=="50n") {
-            tings = $.extend(['mist', 'vapor', 'creepy', 'spook', 'blind', 'low visbility', 'darkness', 'gloomy', 'depress', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['mist', 'vapor', 'creepy', 'spook', 'blind', 'low visbility', 'darkness', 'gloomy', 'depress', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['mist', 'vapor', 'creepy', 'spook', 'blind', 'low visbility', 'darkness', 'gloomy', 'depress', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['mgiełka', 'para wodna', 'kripi', 'drgawki', 'nic nie widać', 'niska widoczność', 'ciemność', 'mroczno', 'deprecha', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         else {
         var dogefix = [
@@ -212,7 +212,7 @@
         setInterval(function() {
             
             $('.such.overlay').append(
-                '<span style="position: absolute; left: ' + Math.random()  *100 + '%;top: ' + Math.random()  *100 + '%;font-size: ' + Math.max(20, (Math.random() * 50 + 24)) + 'px; color:' + randomFrom(suchcolors) + ';">'
+                '<span style="position: absolute; left: ' + Math.random()  *80 + '%;top: ' + Math.random()  *80 + '%;font-size: ' + Math.max(20, (Math.random() * 50 + 24)) + 'px; color:' + randomFrom(suchcolors) + ';">'
                     + r(dogefix) +
                 '</span>');
                 var suchnumber = $("span").length;
