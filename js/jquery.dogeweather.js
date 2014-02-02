@@ -31,8 +31,8 @@
         var temp = $("#degreesCelsius .number").text();
         var suchtemp = parseInt(temp);
 
-        console.log(suchicon);
-        console.log(suchtemp + "temp");
+//        console.log(suchicon);
+//        console.log(suchtemp + "temp");
         if (suchtemp <= -30)
         {
             var sofirst = "zima"; //"winter";
@@ -133,52 +133,60 @@
         }
         if(suchicon=="02n") {
 //            tings = $.extend(['dark', 'cumulus', 'amaze', 'cloud', 'star', 'space', 'after dark', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['dark', 'cumulus', 'amaze', 'cloud', 'star', 'space', 'after dark', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['ciemno', 'cumulus', 'olśnienie', 'chmura', 'gwiazda', 'wszechświat', 'po zmroku', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="03d") {
 //            tings = $.extend(['cloudy', 'scattered', 'overcast', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['cloudy', 'scattered', 'overcast', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['pochmurnie', 'rozproszony', 'szaro', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="03n") {
 //            tings = $.extend(['cloud', 'scattered', 'clear sky', 'night time', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-            tings = $.extend(['cloud', 'scattered', 'clear sky', 'night time', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['chmury', 'rozproszony', 'czyste niebo', 'noc', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="04d" || suchicon=="04n") {
-            tings = $.extend(['gloomy', 'clouds', 'shady', 'boring', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['gloomy', 'clouds', 'shady', 'boring', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['ponuro', 'chmurki', 'ciemno', 'nudy na pudy', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="09d") {
-            tings = $.extend(['cloud', 'showers', 'raindrop', 'wet', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['cloud', 'showers', 'raindrop', 'wet', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['chmura', 'przelotne opady', 'kropelki', 'mokro', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="09n") {
-            tings = $.extend(['cloud', 'showers', 'raindrop', 'wet', 'night', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['cloud', 'showers', 'raindrop', 'wet', 'night', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['chmura', 'kapuśniaczki', 'kropelki', 'mokro', 'noc', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="10d") {
             tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="10n") {
             tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'scary', 'dark cloud', 'night', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['raindrops', 'soak', 'wet', 'slippery', 'shower', 'terrible', 'scary', 'dark cloud', 'night', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="11d") {
             tings = $.extend(['thunder', 'loud', 'scare', 'bolt', 'lightning', 'terrible', 'hide', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['thunder', 'loud', 'scare', 'bolt', 'lightning', 'terrible', 'hide', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="11n") {
             tings = $.extend(['scary night', 'thunder', 'loud', 'crash', 'bolt', 'lightning', 'terrible', 'hide', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['scary night', 'thunder', 'loud', 'crash', 'bolt', 'lightning', 'terrible', 'hide', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="13d") {
             tings = $.extend(['snow', 'white', 'soft', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['snow', 'white', 'soft', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="13n") {
             tings = $.extend(['snow', 'white', 'night time', 'slippery', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['snow', 'white', 'night time', 'slippery', 'icy', 'snowflake', 'powder', 'joy', 'shiny', 'festive', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
-        if(suchicon=="50d") {
+        if(suchicon=="50d" || suchicon=="50n") {
             tings = $.extend(['mist', 'vapor', 'creepy', 'spook', 'blind', 'low visbility', 'darkness', 'gloomy', 'depress', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
-        }
-        if(suchicon=="50n") {
-            tings = $.extend(['mist', 'vapor', 'creepy', 'spook', 'blind', 'low visbility', 'darkness', 'gloomy', 'depress', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['mist', 'vapor', 'creepy', 'spook', 'blind', 'low visbility', 'darkness', 'gloomy', 'depress', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         else {
         var dogefix = [
-            'wow', 'such weather', 'much doge'
+//            'wow', 'such weather', 'much doge'
+            'wow', 'taka pogoda', 'bardzo pieseł'
         ];
         }
         var dogefix = [
