@@ -116,7 +116,7 @@
         }
         
 
-        console.log(suchtemp);
+//        console.log(suchtemp);
 
         //Clouds
         if(suchicon=="01d") {

@@ -1,9 +1,9 @@
 dogeweather
 ===========
 
-Such Weather
+Taka Pogoda
 
-http://dogeweather.com
+http://www.takapogoda.pl
 
 License
 ===========

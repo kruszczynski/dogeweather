@@ -21,7 +21,7 @@ $.getJSON(weatherUrl, function (data) {
     var sky_img = "url(./img/sky-img/" + icon + ".png)";
     $('.bg').css('background-image', sky_img);
 
-    console.log(icon);
+//    console.log(icon);
 
     //get weather description
     var tempCelcius = data.main.temp - 273.15;
