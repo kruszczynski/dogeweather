@@ -36,7 +36,7 @@ if($query && $query['status'] == 'success') {
 	echo $djson;
 
 } else {
-  	$url = "http://api.openweathermap.org/data/2.5/weather?q=Paris";
+  	$url = "http://api.openweathermap.org/data/2.5/weather?q=Warsaw";
   	$djson = file_get_contents($url);
 	echo $djson;
 }
