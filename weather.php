@@ -32,13 +32,13 @@ if($query && $query['status'] == 'success') {
   $lat = $query['lat'];
   $lon = $query['lon'];
 
-  $url = "http://api.openweathermap.org/data/2.5/weather?lat={$lat}&lon={$lon}";
+  $url = "http://api.openweathermap.org/data/2.5/weather?lat={$lat}&lon={$lon}&lang=pl";
 
   	$djson = file_get_contents($url);
 	echo $djson;
 
 } else {
-  	$url = "http://api.openweathermap.org/data/2.5/weather?q=Warsaw";
+  	$url = "http://api.openweathermap.org/data/2.5/weather?q=Warsaw&lang=pl";
   	$djson = file_get_contents($url);
 	echo $djson;
 }

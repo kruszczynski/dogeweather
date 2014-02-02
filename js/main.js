@@ -3,7 +3,7 @@ weatherUrl = "http://dogeweather.comoj.com/weather.php";
 $.getJSON(weatherUrl, function (data) {
 
     //$("#degreesCelsius").hide();
-    console.log(data);
+//    console.log(data);
 
     //set weather id & icon
     var id = data.weather[0].id;
@@ -29,7 +29,7 @@ $.getJSON(weatherUrl, function (data) {
     var description = data.weather[0].description;
 
     $('#weather-desc').text("wow " + description);
-    $('#location').text(data.name);
+    $('#location').text("uszanowanko " + data.name);
 
     $('#degreesCelsius .number').text(Math.round(tempCelcius));
     $('#degreesCelsius .cel').text("°C ");

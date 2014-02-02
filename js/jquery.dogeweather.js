@@ -35,84 +35,84 @@
         console.log(suchtemp + "temp");
         if (suchtemp <= -30)
         {
-            var sofirst = "winter";
-            var sosecond = "freeze";
-            var sothird = "polar vortex";
-            var sofourth = "ridiculous";
-            var sofifth = "hibernate";
-            var sosixth = "climate change";
+            var sofirst = "zima"; //"winter";
+            var sosecond = "mróz";//"freeze";
+            var sothird = "koło podbiegunowe";//"polar vortex";
+            var sofourth = "poyebao";//"ridiculous";
+            var sofifth = "piesełbernacja";//"hibernate";
+            var sosixth = "epoka lodowcowa";//"climate change";
         }
         else if (suchtemp > -30 && suchtemp <= -15)
         {
-            var sofirst = "cold";
-            var sosecond = "freeze";
-            var sothird = "shiver";
-            var sofourth = "ice";
-            var sofifth = "yuck";
-            var sosixth = "climate change";
+            var sofirst = "zimno";//"cold";
+            var sosecond = "mrozik"; //"freeze";
+            var sothird = "drgawki"; //"shiver";
+            var sofourth = "lód"; //"ice";
+            var sofifth = "fujka"; //"yuck";
+            var sosixth = "zmiana klimatu"; //"climate change";
         }
         else if (suchtemp > -15 && suchtemp <= -7)
         {
-            var sofirst = "icy";
-            var sosecond = "winter";
-            var sothird = "chill";
-            var sofourth = "crisp";
-            var sofifth = "brrrrr";
-            var sosixth = "cool"
+            var sofirst = "lodowato"; //"icy";
+            var sosecond = "zima"; //"winter";
+            var sothird = "chłodek"; //"chill";
+            var sofourth = "zim"; //"crisp";
+            var sofifth = "brrrrr"; //"brrrrr";
+            var sosixth = "zimnawo"; //"cool"
         }
         else if (suchtemp > -7 && suchtemp <= 0)
         {
-            var sofirst = "icy";
-            var sosecond = "frost";
-            var sothird = "numb";
-            var sofourth = "shiver";
-            var sofifth = "brrr";
-            var sosixth = "chilly";
+            var sofirst = "lodowo"; //"icy";
+            var sosecond = "mroz"; //"frost";
+            var sothird = "nie czuć paluszków"; //"numb";
+            var sofourth = "dygotki"; //"shiver";
+            var sofifth = "brrr"; //"brrr";
+            var sosixth = "chłodek"; //"chilly";
         }
         else if (suchtemp > 0 && suchtemp <= 10)
         {
-            var sofirst = "chilly";
-            var sosecond = "concern";
-            var sothird = "coat";
-            var sofourth = "frosty";
-            var sofifth = "uh oh";
-            var sosixth = "brrrr";
+            var sofirst = "nieciepło"; //"chilly";
+            var sosecond = "niepokój"; //"concern";
+            var sothird = "płaszcz"; //"coat";
+            var sofourth = "przymrozek"; //"frosty";
+            var sofifth = "O.o"; //"uh oh";
+            var sosixth = "brrrr"; //"brrrr";
         }
         else if (suchtemp > 10 && suchtemp <= 20)
         {
-            var sofirst = "moderate";
-            var sosecond = "mild";
-            var sothird = "okay";
-            var sofourth = "medium";
-            var sofifth = "cool";
-            var sosixth = "whatever";
+            var sofirst = "średnio"; //"moderate";
+            var sosecond = "umiarkowany"; //"mild";
+            var sothird = "spoko"; //"okay";
+            var sofourth = "może być"; //"medium";
+            var sofifth = "wypas"; //"cool";
+            var sosixth = "whatever"; //"whatever";
         }
         else if (suchtemp > 20 && suchtemp <= 30)
         {
-            var sofirst = "heat";
-            var sosecond = "warmth";
-            var sothird = "climate";
-            var sofourth = "sweating";
-            var sofifth = "balmy";
-            var sosixth = "nice day";
+            var sofirst = "upał"; //"heat";
+            var sosecond = "ciepełko"; //"warmth";
+            var sothird = "klimacik"; //"climate";
+            var sofourth = "spocony"; //"sweating";
+            var sofifth = "maściście"; //"balmy";
+            var sosixth = "ładny dzionek"; //"nice day";
         }
         else if (suchtemp > 30)
         {
-            var sofirst = "boiling";
-            var sosecond = "bake";
-            var sothird = "melt";
-            var sofourth = "dying";
-            var sofifth = "suffer";
-            var sosixth = "global warming";
+            var sofirst = "parówa"; //"boiling";
+            var sosecond = "piekarnik"; //"bake";
+            var sothird = "topienie"; //"melt";
+            var sofourth = "zgon"; //"dying";
+            var sofifth = "cierpienie"; //"suffer";
+            var sosixth = "globalne ocieplenie"; //"global warming";
         }
         else
         {
-            var sofirst = "concern";
-            var sosecond = "climate";
-            var sothird = "degrees";
-            var sofourth = "shrug";
-            var sofifth = "wow";
-            var sosixth = "celcius";
+            var sofirst = "niepokój"; //"concern";
+            var sosecond = "klimacik"; //"climate";
+            var sothird = "stopnie"; //"degrees";
+            var sofourth = "niewruszony"; //"shrug";
+            var sofifth = "wow"; //"wow";
+            var sosixth = "celsjusz"; //"celcius";
         }
         
 
@@ -120,21 +120,27 @@
 
         //Clouds
         if(suchicon=="01d") {
-            tings = $.extend(['clear', 'sky', 'lovely', 'amaze', 'wonderful','sun', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['clear', 'sky', 'lovely', 'amaze', 'wonderful','sun', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['czyste', 'niebo', 'pięknie', 'wspaniale', 'uroczo','słonko', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="01n") {
-            tings = $.extend(['night', 'amaze', 'clear', 'lovely', 'wonderful', 'sky', 'stars', 'moon', 'dark', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['night', 'amaze', 'clear', 'lovely', 'wonderful', 'sky', 'stars', 'moon', 'dark', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['noc', 'wspaniale', 'czysto', 'słodko', 'pięknie', 'niebo', 'gwiazdy', 'księzyc', 'ciemno', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="02d") {
-            tings = $.extend(['cloud', 'okay', 'cumulus', 'amaze', 'sky', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+//            tings = $.extend(['cloud', 'okay', 'cumulus', 'amaze', 'sky', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
+            tings = $.extend(['chmurka', 'wporzo', 'cumulus', 'wypas', 'niebo', 'pogoda', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="02n") {
+//            tings = $.extend(['dark', 'cumulus', 'amaze', 'cloud', 'star', 'space', 'after dark', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
             tings = $.extend(['dark', 'cumulus', 'amaze', 'cloud', 'star', 'space', 'after dark', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="03d") {
+//            tings = $.extend(['cloudy', 'scattered', 'overcast', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
             tings = $.extend(['cloudy', 'scattered', 'overcast', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="03n") {
+//            tings = $.extend(['cloud', 'scattered', 'clear sky', 'night time', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
             tings = $.extend(['cloud', 'scattered', 'clear sky', 'night time', 'weather', sofirst, sosecond, sothird, sofourth, sofifth, sosixth], tings);
         }
         if(suchicon=="04d" || suchicon=="04n") {
