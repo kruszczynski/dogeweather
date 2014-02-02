@@ -20,7 +20,11 @@
         //var tings = $.extend(['doge', 'shibe', 'excite', 'impress', 'skill', 'warn'], tings);
         
         var r = function(arr) {
-            if(!arr) arr = tings; return arr[Math.floor(Math.random() * arr.length)];
+            if(!arr) {
+                arr = tings;
+            }
+            toReturn =arr[Math.floor(Math.random() * arr.length)];
+            return toReturn;
         };
 
         //Get Weather
@@ -210,16 +214,21 @@
         });
      
         setInterval(function() {
-            
+            var newDogefix = [
+                'so wow', 'such ' + r(),
+                'very ' + r(), 'much ' + r(),
+                'so ' + r(),
+                'wow'
+            ];
             $('.such.overlay').append(
                 '<span style="position: absolute; left: ' + Math.random()  *80 + '%;top: ' + Math.random()  *80 + '%;font-size: ' + Math.max(20, (Math.random() * 30 + 24)) + 'px; color:' + randomFrom(suchcolors) + ';">'
-                    + r(dogefix) +
+                    + r(newDogefix) +
                 '</span>');
                 var suchnumber = $("span").length;
                 if (suchnumber > 8 )
                 {
                     $('.such span:nth-child(1)').remove();
                 }
-        }, 2500);
+        }, 1500);
     };
 })(jQuery);
