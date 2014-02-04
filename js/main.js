@@ -2,9 +2,8 @@
     var locationAPI = 'http://ip-api.com/json';
     var weatherAPI = 'http://api.openweathermap.org/data/2.5/weather?lang=pl&';
     var getWeather = function(data) {
-        var status = data.status;
         var fullWeatherEndpoint = weatherAPI;
-        if(status == 'success') {
+        if(data.status == 'success') {
             fullWeatherEndpoint += 'lat=' + data.lat + '&lon=' + data.lon;
         } else {
             fullWeatherEndpoint += 'q=Paris';
