@@ -1,17 +1,24 @@
 (function(){
+    var customLocation = window.location.search.split('=')[1];
     var locationAPI = 'http://ip-api.com/json';
     var weatherAPI = 'http://api.openweathermap.org/data/2.5/weather?lang=pl&';
     var getWeather = function(data) {
         var fullWeatherEndpoint = weatherAPI;
-        if(data.status == 'success') {
+        if(customLocation) {
+            fullWeatherEndpoint += 'q=' + customLocation;
+        } else if(data.status == 'success') {
             fullWeatherEndpoint += 'lat=' + data.lat + '&lon=' + data.lon;
         } else {
-            fullWeatherEndpoint += 'q=Paris';
+            fullWeatherEndpoint += 'q=Warsaw';
         }
         $.getJSON(fullWeatherEndpoint,gotWeather)
     }
     var gotWeather = function(data) {
         //set weather id & icon
+        if(data.cod == '404'){
+            $.getJSON('http://api.openweathermap.org/data/2.5/weather?lang=pl&q=Warsaw',gotWeather);
+            return;
+        }
         var id = data.weather[0].id;
         var icon = data.weather[0].icon;
 

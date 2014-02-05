@@ -93,6 +93,35 @@
             .ourinfo a:hover {
                 color: #FF3399;
             }
+            .location {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 20px;
+                color: #FF3399;
+            }
+            .location label, .location a {
+                font-size: 16px;
+                line-height: 30px;
+            }
+            .location a {
+                display: block;
+                color: #FFFF99;
+                font-weight: bold;
+                text-align: right;
+                text-decoration: none;
+            }
+            .location a:hover{
+                color: #FF3399;
+            }
+            .location input {
+                border: none;
+                padding: 0 5px;
+                line-height: 30px;
+                font-size: 16px;
+                font-family: inherit;
+                border-radius: 5px;
+            }
         </style>
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -111,6 +140,13 @@
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.takapogoda.pl&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=570996162912027" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
         </div>
+        <div class="location">
+            <form>
+                <label for="location-input">Niestandardowa Lokalizacja:</label>
+                <input type="text" placeholder="np. Pieseł Zdrój" name="location" id="location-input">
+            </form>
+            <a href="/">Twoja lokalizacja</a>
+        </div>
         <div class="container">
             <div class="doge-image"></div>
             <div id="all-weather">
@@ -127,7 +163,7 @@
         
         <div class="ourinfo">
             taki <a href="https://github.com/kruszczynski/dogeweather" target="_blank">github</a> by <a href="http://www.kruszczynski.net/" target="_blank">kruszczyński</a>
-            <p> uszanowanko dla <a href="https://twitter.com/kruszczynski" target="_blank">Bartek</a>, <a href="https://twitter.com/KatiaEirin" target="_blank">Katia</a> &amp; <a href="https://twitter.com/ennsu" target="_blank">Bennett</p>
+            <p> uszanowanko dla <a href="https://twitter.com/kruszczynski" target="_blank">Bartek</a>, <a href="https://twitter.com/KatiaEirin" target="_blank">Katia</a> &amp; <a href="https://twitter.com/ennsu" target="_blank">Bennett</a></p>
             <p>wow takie cookies</p>
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
