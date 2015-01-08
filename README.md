@@ -3,8 +3,6 @@ dogeweather
 
 Taka Pogoda
 
-http://www.takapogoda.pl
-
 License
 ===========
 
